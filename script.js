@@ -18,6 +18,13 @@ const notes = [{
 		author: "瑜伽爱好者",
 		image: "./imgs/3.jpg",
 		link: "https://www.taobao.com"
+	},
+	{
+		title: "4",
+		content: "想学习瑜伽的朋友可以看看这个入门指南，很适合初学者。",
+		author: "瑜伽爱好者",
+		image: "./imgs/4.jpg",
+		link: "https://www.taobao.com"
 	}
 ];
 
