@@ -48,3 +48,10 @@ function init() {
 
 // 调用初始化函数
 init();
+
+function submitTest() {
+            alert("提交成功");
+            // 防止表单提交后页面跳转
+            return false;
+			
+        }
