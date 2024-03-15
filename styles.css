@@ -10,12 +10,16 @@ body {
 	font-family: "楷体";
 }
 
-.message{
+.message {
 	resize: none;
 	max-width: 800px;
 	height: 200px;
 	margin: 0;
 	padding: 0;
+}
+
+.phone {
+	/* margin: 0 25%; */
 }
 
 .navbar {
@@ -46,8 +50,8 @@ a.nav-link {
 	position: relative;
 }
 
-.nav-link:active{
-	color:red;
+.nav-link:active {
+	color: red;
 }
 
 .container {
@@ -55,10 +59,18 @@ a.nav-link {
 	margin: 0 auto;
 }
 
+.container input {
+	font-weight: 500;
+	font-size: 18px;
+	font-family: "impact";
+	width: 15.9%;
+	height: 30px;
+}
+
 h1 {
 	color: #333;
 	text-align: center;
-	margin: 0;
+	margin: 20 0;
 }
 
 .note-list {
@@ -97,120 +109,4 @@ h1 {
 .note img {
 	max-width: 100%;
 	border-radius: 5px;
-}
-
-.eat-peas {
-	width: 150px;
-	/* 缩小到原来的一半 */
-	height: 50px;
-	/* 缩小到原来的一半 */
-	margin: 0 auto;
-	position: relative;
-}
-
-.eat-peas .head {
-	width: 50px;
-	/* 缩小到原来的一半 */
-	height: 50px;
-	/* 缩小到原来的一半 */
-	/* border: 2px solid blue; */
-	border-radius: 50%;
-	/* 隐藏多余盒子部分 */
-	overflow: hidden;
-	position: relative;
-	z-index: 2;
-}
-
-/* 利用伪元素构造盒子 */
-.eat-peas .head::before {
-	content: "";
-	display: block;
-	width: 50px;
-	/* 缩小到原来的一半 */
-	height: 25px;
-	/* 缩小到原来的一半 */
-	background-color: tomato;
-	/* 以盒子底部中心为轴向上旋转盒子 */
-	transform-origin: bottom center;
-	transform: rotate(0deg);
-	/* 引入动画 */
-	animation: rotate1 .4s ease infinite alternate;
-}
-
-.eat-peas .head::after {
-	content: "";
-	display: block;
-	width: 50px;
-	/* 缩小到原来的一半 */
-	height: 25px;
-	/* 缩小到原来的一半 */
-	background-color: tomato;
-	/* 以盒子顶部中心为轴向下旋转盒子 */
-	transform-origin: top center;
-	transform: rotate(0deg);
-	/* 引入动画 */
-	animation: rotate2 .4s ease infinite alternate;
-
-}
-
-@keyframes rotate1 {
-	0% {
-		transform: rotate(0deg);
-	}
-
-	100% {
-		transform: rotate(-30deg);
-	}
-}
-
-@keyframes rotate2 {
-	0% {
-		transform: rotate(0deg);
-	}
-
-	100% {
-		transform: rotate(30deg);
-	}
-}
-
-/* 眼睛 */
-.eat-peas .eye {
-	width: 5px;
-	/* 缩小到原来的一半 */
-	height: 5px;
-	/* 缩小到原来的一半 */
-	background-color: #000;
-	border: 1px solid #fff;
-	position: absolute;
-	top: 5px;
-	/* 缩小到原来的一半 */
-	left: 20px;
-	/* 缩小到原来的一半 */
-	border-radius: 50%;
-}
-
-/* 豆豆 */
-.eat-peas .peas {
-	width: 10px;
-	height: 10px;
-	background-color: tomato;
-	border-radius: 50%;
-	position: absolute;
-	left: 30px;
-	top: 50%;
-	margin-top: -5px;
-	box-shadow: 35px 0px 0px tomato, 70px 0px 0px tomato, 105px 0px 0px tomato;
-	animation: move .8s ease infinite;
-}
-
-
-@keyframes move {
-	0% {
-		transform: translateX(0px);
-	}
-
-	100% {
-		transform: translateX(-18px);
-		/* 缩小到原来的一半 */
-	}
 }
