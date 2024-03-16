@@ -1,28 +1,28 @@
 const notes = [{
-		title: "梦幻西游手游新版本更新",
-		content: "今天梦幻西游手游发布了新版本，新增了一些全新的玩法和地图。",
-		author: "游戏迷",
+		title: "保护与传承",
+		content: "这件川西漆器展现了精湛的工艺和独特的设计风格。",
+		author: "李明 - 传统川西漆器工匠",
 		image: "./imgs/1.jpg",
 		link: "https://www.taobao.com"
 	},
 	{
-		title: "日本旅行心得",
-		content: "最近去了日本旅行，感觉京都特别美，强烈推荐大家去感受一下。",
-		author: "旅行达人",
+		title: "川西非遗",
+		content: "这个川西漆器融合了传统与现代元素，散发着古朴与时尚并存的魅力。",
+		author: "王红 - 设计师兼川西漆器艺术家",
 		image: "./imgs/2.jpg",
 		link: "https://www.taobao.com"
 	},
 	{
-		title: "瑜伽入门指南",
-		content: "想学习瑜伽的朋友可以看看这个入门指南，很适合初学者。",
-		author: "瑜伽爱好者",
+		title: "川西非遗之美",
+		content: "这件川西漆器以细腻的纹饰和华丽的色彩吸引着人们的目光。",
+		author: "张伟 - 川西漆器雕刻师",
 		image: "./imgs/3.jpg",
 		link: "https://www.taobao.com"
 	},
 	{
-		title: "4",
-		content: "想学习瑜伽的朋友可以看看这个入门指南，很适合初学者。",
-		author: "瑜伽爱好者",
+		title: "跨越时空的回响",
+		content: "这件川西漆器透露出浓厚的文化氛围，让人仿佛置身于古老传统的韵味之中。",
+		author: "刘芳 - 川西漆器绘画师",
 		image: "./imgs/4.jpg",
 		link: "https://www.taobao.com"
 	}
@@ -57,8 +57,8 @@ function init() {
 init();
 
 function submitTest() {
-            alert("提交成功");
-            // 防止表单提交后页面跳转
-            return false;
-			
-        }
+	alert("提交成功");
+	// 防止表单提交后页面跳转
+	return false;
+
+}
