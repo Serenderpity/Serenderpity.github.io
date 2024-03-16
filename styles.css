@@ -58,6 +58,7 @@ a.nav-link {
 .container input {
 	font-weight: 500;
 	font-size: 18px;
+	margin-right: 20px;
 	width: 30%;
 	height: 50px;
 }
