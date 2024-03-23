@@ -3,28 +3,28 @@ const notes = [{
 		content: "这件川西漆器展现了精湛的工艺和独特的设计风格。",
 		author: "李明 - 传统川西漆器工匠",
 		image: "./imgs/1.jpg",
-		link: "./details.html"
+		link: "./details/detail1.html"
 	},
 	{
 		title: "川西非遗",
 		content: "这个川西漆器融合了传统与现代元素，散发着古朴与时尚并存的魅力。",
 		author: "王红 - 设计师兼川西漆器艺术家",
 		image: "./imgs/2.jpg",
-		link: "./details.html"
+		link: "./details/detail2.html"
 	},
 	{
 		title: "川西非遗之美",
 		content: "这件川西漆器以细腻的纹饰和华丽的色彩吸引着人们的目光。",
 		author: "张伟 - 川西漆器雕刻师",
 		image: "./imgs/3.jpg",
-		link: "./details.html"
+		link: "./details/detail3.html"
 	},
 	{
 		title: "跨越时空的回响",
 		content: "这件川西漆器透露出浓厚的文化氛围，让人仿佛置身于古老传统的韵味之中。",
 		author: "刘芳 - 川西漆器绘画师",
 		image: "./imgs/4.jpg",
-		link: "./details.html"
+		link: "./details/detail4.html"
 	}
 ];
 
