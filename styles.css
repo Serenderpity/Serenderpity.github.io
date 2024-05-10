@@ -63,7 +63,7 @@ a.nav-link {
 	height: 50px;
 }
 
-h1 {
+h1,h2 {
 	color: #333;
 	text-align: center;
 	margin: 20 0;
